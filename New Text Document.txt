@@ -1,0 +1,38 @@
+class MethodContructor
+{
+	public MethodContructor()
+	{
+		System.out.println("Default constroctor");
+		middelNameDisplay();
+			
+	}
+	
+	public static void FirstNameDisplay()
+	{
+		System.out.println("Ganesh");
+		
+	}
+
+	public void middelNameDisplay()
+	{
+		ystem.out.println("Prabhakar");
+		//lastNameDisplay();
+	}
+	
+	public static void lastNameDisplay()
+	{
+
+		System.out.println("Khaladkar");
+	}
+
+	public static void main(String args[])
+	{
+
+		System.out.println("I am in Main");
+		
+		MethodExm m= new MethodExm();
+		m.middelNameDisplay();
+		
+		//MethodExm.FirstNameDisplay();
+	}
+}
